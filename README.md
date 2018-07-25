@@ -6,7 +6,7 @@ A tower defense game called Ants Vs. SomeBees inspired by PopCap Games' Plants V
 
 1. Download the associated files
 
-2. From the 'ants' folder, run the following command:
+2. From the `ants` folder, run the following command `python3 gui.py` to play the game normally or the following command for additional features:
 
 ```
 python3 gui.py [-h] [-d DIFFICULTY] [-w] [--food FOOD]
