@@ -33,7 +33,7 @@ Each ant has various food cost, armor, and abilities. Prevent the bees from winn
 * A FireAnt has a special reduce armor method: when the FireAnt's armor reaches zero or lower, it will reduce the armor of all Bees in the same place as the FireAnt by its damage attribute.
 
 * The LongThrower can only throw at a Bee that is found after following at least 5 entrance transitions. So the LongThrower can't hit Bees that are in the same place as it or the first 4 Places in front of it. 
- - If there are two Bees, one too close to the LongThrower and the other within its range, the LongThrower should throw past the closer Bee, instead targeting the farther one, which is within its range.
+   - If there are two Bees, one too close to the LongThrower and the other within its range, the LongThrower should throw past the closer Bee, instead targeting the farther one, which is within its range.
 
 * The ShortThrower can only throw at a Bee that is found after following at most 3 entrance transitions. So the ShortThrower can only hit Bees in the same Place as it and 3 places in front of it.
 
@@ -50,9 +50,9 @@ Each ant has various food cost, armor, and abilities. Prevent the bees from winn
 * The BodyguardAnt provides great defense, but they say the best defense is a good offense. The TankAnt is a container that protects an ant in its place and also deals 1 damage to all bees in its place each turn.
 
 * The QueenAnt is a waterproof ScubaThrower that inspires her fellow ants through her bravery. The QueenAnt doubles the damage of all the ants behind her each time she performs an action. Once an ant's damage has been doubled, it is not doubled again for subsequent turns. 
- - If the queen ever has its armor reduced to 0, the bees win. The bees also still win if any bee reaches the end of a tunnel. 
- - There can be only one true queen. Any queen instantiated beyond the first one is an impostor, and should have its armor reduced to 0 upon taking its first action, without doubling any ant's damage or throwing anything. If an impostor dies, the game should still continue as normal. 
- - The true (first) queen cannot be removed. Attempts to remove the queen should have no effect.
+   - If the queen ever has its armor reduced to 0, the bees win. The bees also still win if any bee reaches the end of a tunnel. 
+   - There can be only one true queen. Any queen instantiated beyond the first one is an impostor, and should have its armor reduced to 0 upon taking its first action, without doubling any ant's damage or throwing anything. If an impostor dies, the game should still continue as normal. 
+   - The true (first) queen cannot be removed. Attempts to remove the queen should have no effect.
 
 * SlowThrower applies a slow effect for 3 turns.
 
