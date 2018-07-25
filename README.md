@@ -8,7 +8,7 @@ A tower defense game called Ants Vs. SomeBees inspired by PopCap Games' Plants V
 
 2. From the 'ants' folder, run the following command:
 
-'''
+```
 python3 gui.py [-h] [-d DIFFICULTY] [-w] [--food FOOD]
 
 Play Ants vs. SomeBees
@@ -18,7 +18,7 @@ optional arguments:
   -d DIFFICULTY  sets difficulty of game (easy/medium/hard/insane)
   -w, --water    loads a full layout with water
   --food FOOD    number of food to start with (cheat code).
-'''
+```
 
 ## Instructions:
 
